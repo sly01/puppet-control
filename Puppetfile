@@ -30,5 +30,5 @@ mod 'role',
 	:branch => 'master'
 
 mod 'ntp',
-	:git => 'https://github.com/sly01/puppet-profile.git',
+	:git => 'https://github.com/sly01/aerkoc-ntp.git',
 	:branch => 'master'
