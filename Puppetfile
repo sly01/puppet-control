@@ -16,3 +16,19 @@ mod 'puppetlabs-apache',                        '1.11.0'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'ssh',
+	:git => 'https://github.com/sly01/aerkoc-ssh.git',
+	:branch => 'master'
+
+mod 'profile',
+	:git => 'https://github.com/sly01/puppet-profile.git',
+	:branch => 'master'
+
+mod 'role',
+	:git => 'https://github.com/sly01/puppet-role.git',
+	:branch => 'master'
+
+mod 'ntp',
+	:git => 'https://github.com/sly01/puppet-profile.git',
+	:branch => 'master'
