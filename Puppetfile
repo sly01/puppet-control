@@ -6,6 +6,7 @@ mod "puppetlabs/inifile",     '1.6.0'
 mod "puppetlabs/stdlib",      '4.17.1'
 mod "puppetlabs/concat",      '4.0.1'
 mod 'puppetlabs-apache',                        '1.11.0'
+mod 'puppet-selinux', '1.1.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
