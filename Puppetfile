@@ -7,6 +7,7 @@ mod "puppetlabs/stdlib",      '4.17.1'
 mod "puppetlabs/concat",      '4.0.1'
 mod 'puppetlabs-apache',                        '1.11.0'
 mod 'puppet-selinux', '1.1.0'
+mod 'saz-rsyslog', '5.0.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -24,11 +25,11 @@ mod 'ssh',
 
 mod 'profile',
 	:git => 'https://github.com/sly01/puppet-profile.git',
-	:branch => 'master'
+	:branch => 'development'
 
 mod 'role',
 	:git => 'https://github.com/sly01/puppet-role.git',
-	:branch => 'master'
+	:branch => 'development'
 
 mod 'ntp',
 	:git => 'https://github.com/sly01/aerkoc-ntp.git',

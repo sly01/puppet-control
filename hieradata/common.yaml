@@ -5,3 +5,9 @@ profile::base::ntp_servers:
  - 2.ubuntu.pool.ntp.org
  - 3.ubuntu.pool.ntp.org
 profile::apache::default_vhost: false
+rsyslog::client::remote_servers:
+  - host: '10.10.10.10'
+    port: '514'
+    pattern: '*.*'
+    protocal: 'tcp'
+rsyslog::client::log_local: true 
