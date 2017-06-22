@@ -25,7 +25,7 @@ mod 'ssh',
 
 mod 'profile',
 	:git => 'https://github.com/sly01/puppet-profile.git',
-	:branch => 'master'
+	:branch => 'test'
 
 mod 'role',
 	:git => 'https://github.com/sly01/puppet-role.git',
@@ -33,4 +33,4 @@ mod 'role',
 
 mod 'ntp',
 	:git => 'https://github.com/sly01/aerkoc-ntp.git',
-	:branch => 'test'
+	:branch => 'master'
