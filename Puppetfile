@@ -29,8 +29,8 @@ mod 'profile',
 
 mod 'role',
 	:git => 'https://github.com/sly01/puppet-role.git',
-	:branch => 'master'
+	:branch => 'test'
 
 mod 'ntp',
 	:git => 'https://github.com/sly01/aerkoc-ntp.git',
-	:branch => 'master'
+	:branch => 'test'
