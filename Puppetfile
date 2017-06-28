@@ -37,4 +37,4 @@ mod 'ntp',
 
 mod 'nginx',
 	:git => 'https://github.com/sly01/puppet-nginx.git',
-	:branch => 'test'
+	:branch => 'master'
