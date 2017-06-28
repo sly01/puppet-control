@@ -34,3 +34,7 @@ mod 'role',
 mod 'ntp',
 	:git => 'https://github.com/sly01/aerkoc-ntp.git',
 	:branch => 'master'
+
+mod 'nginx',
+	:git => 'https://github.com/sly01/puppet-nginx.git',
+	:branch => 'test'
