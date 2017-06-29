@@ -1,0 +1,6 @@
+---
+rsyslog::client::remote_servers:
+  - host: '10.10.10.20'
+    port: '514'
+    pattern: '*.*'
+    protocol: 'tcp'
